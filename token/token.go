@@ -9,7 +9,7 @@ type Token struct {
 
 const (
 	ILLEGAL = "ILLEGAL"
-	EOF     = "EOF" // End of file
+	EOF     = "" // End of file
 
 	// Identifiers And Literals
 	IDENT = "IDENT"
